@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>book's</title>
+  
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css" />
+  
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap1.css" type="text/css" />
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="load()">
+  
+  <nav id="main-nav" class="bg-dark">
+    
+      <span id="main" class="text-light h1">books</span>
+      
+      <span id="menu">
+        <a href="#menu-hide">
+          <img id="menu" src="/img/menu_white.png" alt="menu">
+        </a>
+      </span>
+      
+  </nav>
+  
+  <div id="menu-hide" class="list-group">
+    
+    <span id="opciones" class="text-info bg-dark list-group-item text-center">
+      opciones
+      <img onclick="menos()" id="exit" src="/img/pngeditor_cross.png" alt="salir">
+    </span>
+    
+    <a href="/htmls/option.html" class="list-group-item bg-dark text-light">
+      &nbsp;
+      <img id="ajustes" src="/img/edit_config.png" alt="ajustes">
+      &nbsp;&nbsp;ajustes
+    </a>
+    
+    <a href="" class="list-group-item bg-dark text-light">
+      &nbsp;
+      <img src="/img/ic_menu_coment.png" alt="comentarios">
+      &nbsp;&nbsp;enviar comentarios
+    </a>
+    
+    <a href="" class="list-group-item bg-dark text-light">
+      &nbsp;
+      <img src="/img/h5_nav_complain.png" alt="warning">
+      &nbsp;&nbsp;reportar&nbsp;un&nbsp;problema
+    </a>
+    
+    <a href="" class="list-group-item bg-dark text-light">
+      &nbsp;
+      <img src="/img/corazón.png" alt="app">
+      &nbsp;&nbsp;sobre&nbsp;la&nbsp; app
+    </a>
+    
+    <a href="" class="list-group-item bg-dark text-light">
+      &nbsp;
+      <img src="/img/h5_nav_default.png" alt="you">
+      &nbsp;
+      creador
+    </a>
+    
+  </div>
+  
+  <img class="double-1 " src="/images-apps/Minecraft.png" alt="Minecraft">
+  	  
+  <div id="double-2" class="list-group">
+    
+    <span class="h1 list-group-item text-center text-primary">
+      Minecraft
+    </span>
+    
+    <a href="/htmls/books/manual-supervivencia.html" class="h1 list-group-item text-center text-success">
+      Guia
+    </a>
+    
+    <a href="/htmls/descargas /Minecraft/d-minecraft.html" onclick="" class="h1 list-group-item text-center text-success">
+      descargas
+    </a>
+    
+    <a href="/htmls/mas/Minecraft/mas.html" class="h1 list-group-item text-center text-success">
+      más…
+    </a>
+    
+  </div>
+  
+  <img class="double-1" src="/images-apps/gta.png" alt="gta">
+  
+  <div id="double-2" class="list-group">
+    
+    <span class="h1 list-group-item text-center text-primary">
+      GTA: SA
+    </span>
+    
+    <a href="" class="h1 list-group-item text-center text-success">
+      Guia
+    </a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">
+      descargas
+    </a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">
+      más…
+    </a>
+    
+  </div>
+  
+  <img src="/images-apps/dragon-mania.png" alt="dragon-mania" class="double-1">
+  
+  <div id="double-2" class="list-group">
+    
+    <span class="h1 list-group-item text-center text-primary">dragon mania</span>
+    
+    <a href="" class="h1 list-group-item text-center text-success">guía</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">descargas</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">más…</a>
+    
+  </div>
+  
+  <img src="/images-apps/limbo.png" alt="limbo" class="double-1">
+  
+  <div id="double-2" class="list-group">
+    
+    <span class="h1 list-group-item text-center text-primary">limbo</span>
+    
+    <a href="" class="h1 list-group-item text-center text-success">guía</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">descargas</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">más…</a>
+    
+  </div>
+  
+  <img src="/images-apps/OceanIsHome.png" alt="OceanIsHome" class="double-1">
+  
+  <div id="double-2" class="list-group">
+    
+    <span class="h1 list-group-item text-center text-primary">ocean is home</span>
+    
+    <a href="" class="h1 list-group-item text-center text-success">guía</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">descargas</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">más…</a>
+    
+  </div>
+  
+  <img src="/images-apps/Terraria.png" alt="terraria" class="double-1">
+  
+  <div id="double-2" class="list-group">
+    
+    <span class="h1 list-group-item text-center text-primary">terraria</span>
+    
+    <a href="" class="h1 list-group-item text-center text-success">guía</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">descargas</a>
+    
+    <a href="" class="h1 list-group-item text-center text-success">más…</a>
+    
+  </div>
+  
+  <!-- Project -->
+  <script type="text/javascript" charset="utf-8" src="/bootstrap/js/jquery.js"></script>
+  
+  <script type="text/javascript" charset="utf-8" src="../bootstrap/js/bootstrap.js"></script>
+  
+  <script type="text/javascript" charset="utf-8" src="../bootstrap/js/bootstrap1.js"></script>
+  
+  <script src="main.js"></script>
+  <!--code by juan manuel Antonio Florentino -->
+  <!--codigo hecho por juan Manuel Antonio Florentino -->
+  <!-- no robar código -->
+</body>
+</html

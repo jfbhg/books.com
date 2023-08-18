@@ -1,0 +1,61 @@
+* {
+  text-transform: capitalize;
+  font-family: serif;
+}
+button {
+  background-color: transparent;
+  font-family: wasa;
+}
+@font-face {
+  font-family: wasa;
+  src: url('/img/WhatsAppIcons.otf');
+}
+#main-nav {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+#menu {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+#menu-hide {
+  display: none;
+  position: absolute;
+  width: 70%;
+  right: 0;
+  top: 0;
+  font-size: 17px;
+  transition-duration: 1s;
+  z-index: 2;
+  
+}
+#menu-hide:target {
+  display: block;
+  transition-duration: 1s;
+}
+#exit {
+  float: right;
+  width: 35px;
+  height: 35px;
+}
+#menu-hide a img {
+  width: 25px;
+  height: 25px;
+}
+#opciones {
+  font-size: 20px;
+}
+.double-1 {
+  width: 41%;
+  height: 151.5px;
+  float: left;
+}
+#double-2 {
+  width: 59%;
+  height: 153px;
+  float: left;
+}
