@@ -11,3 +11,9 @@ function menos() {
 function disabled() {
   //alert("Está opción aun esta en desarrollo, no disponible por el momento");
 }
+//temporal
+function car() {
+  for (var i = 1; i < 97; i++) {
+    document.write('&nbsp;&nbsp;&lt;img id="" src="/books/Minecraft/manual-combate/Minecraft - Manual de Combate_Page_'+i+'.jpg" alt="img-'+i+'"&gt;<br><br>');
+  }
+}
